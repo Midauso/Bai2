@@ -1,12 +1,15 @@
 extends _layout/layout.pug
 block main
+    // Phan slide
     section.home_slider
         .container
             .row
                 .col
-                    h1 Hi there! We are the new kids on the block  and we build awesome websites and mobile apps
+                    h1 Hi there! We are the new kids on the block and we build awesome websites and mobile apps.
                     p
-                        a.btn.btn_more(href="abc") work with us!
+                        // ? mau:o to V:kich thuoc chua dung (can sua)
+                        a.btn.btn_more(href="") WORK WITH US!
+    // Phan services
     section.home_services
         .container
             .row
@@ -14,6 +17,7 @@ block main
                     h1 SERVICES WE PROVIDE
                     p We are working with both individuals and businesses from all over the goble to create awesome websites and applications.
             .row
+                // chia section thanh 4 ( 1 section co 12 cot )
                 .col-md-3
                     figure
                         img(src="img/home_icon_1.png", alt="flag" )
@@ -33,4 +37,62 @@ block main
                     figure
                         img(src="img/home_icon_4.png", alt="rocket" )
                     h3 ROCKET SCIENCE
-                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, explicabo aliquid!            
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, explicabo aliquid!
+    section.home_team
+        .container
+            .row
+                .col
+                    h1 MEET OUR BEAUTIFUL TEAM
+                    h6 We are a small team of designers and developers, who help brands with big ideas.
+            .row
+                .col-md-3
+                    h5 <b> ANNE HATHAWAY </b> 
+                    h6 CEO / Marketing Guru
+                    p ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.
+                .col-md-3
+                    h5 <b> KATE UPTON </b> 
+                    h6 Creative Director
+                    p Duis aute irure dolor in in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat non diam proident.
+                .col-md-3
+                    h5 <b> OLIVIA WILDE </b> 
+                    h6 Lead Designer
+                    p Nemo enim ipsam voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.
+                .col-md-3
+                    h5 <b> ASHLEY GREENE </b>
+                    h6 SEO / Developer
+                    p Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+    section.home_skills
+        .container
+            .row
+                .col
+                    h1 WE GOT SKILLS!
+                    h6 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            .row
+                .col-md-3
+                    h5 <b> WEB DESIGN </b> 
+                .col-md-3
+                    h5 <b> HTML/CSS </b> 
+                .col-md-3
+                    h5 <b> GRAPHIC DESIGN </b> 
+                .col-md-3
+                    h5 <b> UI/UX </b>
+
+    section.home_portfolio
+        .container
+            .row
+                .col
+                    h1 OUR PORTFIOLO
+                    h6 Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam
+            .row
+                .col-md-6
+                    figure
+                        img(src="img/")
+                    h5 Isometric Perspective Mock-Up
+                .col-md-6
+                    h5 Time Zone App UI
+            .row
+                .col-md-6
+                    h5 Viro Media Players UI
+                .col-md-6
+                    h5 Blog / Magazine Flat UI Kit
+            a.btn.btn_load_projects(href="") LOAD MORE PROJECTS
